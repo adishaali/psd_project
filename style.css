@@ -1,0 +1,173 @@
+/*Start Framework*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=Poppins:wght@500&family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a, a:hover{
+  list-style-type: none;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, a, ul, ol, button, input, p{
+  margin: 0;
+  padding: 0;
+  color: #010101;
+}
+
+body{
+  font-size: 17px;
+  /*body color*/
+  color: #010101;
+  /*body font*/
+  font-family: 'PT Sans', sans-serif;
+}
+
+/*remove space navbar section*/
+.container{
+  max-width: 960px !important;
+}
+
+/*background color:-*/
+.bg-primary{
+  background-color: #fcdb00 !important;
+}
+.bg-secondary{
+  background-color: #000 !important;
+}
+.text-primary{
+  color: #fcdb00 !important;
+}
+
+/*btn:-*/
+.btn{
+  color: #010101;
+  padding: 0.5rem 1.5rem;
+  margin-left: 10px;
+}
+.btn-warning{
+  color: #010101;
+  background-color: #fcdb00;
+  border-color: #fcdb00;
+}
+.btn-warning :hover{
+  background-color: #fcdb00;
+}
+.btn-warning :focus, .btn-warning :active{
+  border-color: #fcdb00;
+}
+
+/*==========================================================
+    Padding Section:-
+============================================================*/
+
+/*==========================================================
+    Margin:-
+============================================================*/
+
+/*End Framework*/
+/*-------------------------------------------------------------------------*/
+
+/*Header Start*/
+/*gap/padding in top*/
+header{
+  padding: 60px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #010101;
+  font-weight: 600;
+  font-size: 20px;
+  /*gap/padding in between fetures-support-blog*/
+  padding-left: 55px;
+}
+/*hover effect*/
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #010101;
+}
+/*text & p part start*/
+.carosel-left h6{
+  color: #313841;
+  font-size: 20px;
+  margin-right: 160px;
+}
+.carosel-left p{
+  color: #555555;
+  margin-right: 113px;
+}
+/*text & p part end*/
+/*icon part*/
+.carosel-left i.fa{
+  font-size: 35px;
+  margin-right: 20px;
+}
+/*slider radius part*/
+.carousel-indicators li{
+  width:  15px;
+  height: 15px;
+  border-radius: 50%;
+}
+/*Header end*/
+/*-------------------------------------------------------------------------*/
+
+/*tinyone features Start*/
+.tinyone-features{
+  padding: 120px 0;
+}
+.features-info p{
+  color: #313841;
+  /*border-bottom: 1px solid #313841;*/
+  padding: 15px 136px;
+}
+/*icons part*/
+.features-icon img{
+  position: absolute;
+}
+.features-icon .features-text{
+  position: relative;
+  margin-left: 79px;
+  margin-top: 70px;
+}
+.features-icon .features-text p{
+  color: #898989;
+  margin-top: 15px;
+}
+/*tinyone features end*/
+/*-------------------------------------------------------------------------*/
+
+/*keep in tauch with us start*/
+  .keep{
+    padding: 100px 0;
+  }
+  .keep-info{
+    margin: 0 130px;
+  }
+  .keep-info p{
+    color: #898989;
+  }
+  .Social-link i.fa{
+    color: #fcdb00;
+    font-size: 40px;
+    padding: 0 10px;
+  }
+/*keep in tauch with us end*/
+/*-------------------------------------------------------------------------*/
+
+/*footer start*/
+footer{
+  padding-bottom: 100px;
+}
+footer ul{
+  color: #ffffff;
+}
+footer ul li a{
+  color: #ffffff;
+}
+footer ul li:hover{
+  color: #fcdb00;
+}
+footer ul li a:hover{
+  color: #fcdb00;
+}
+
+/*footer end*/

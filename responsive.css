@@ -1,0 +1,55 @@
+/*Start Header*/
+@media(max-width:992px){
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:768px){
+  .carosel-left{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .carosel-left h6{
+    margin-right: 0px;
+  }
+  .carosel-left p{
+    margin-right: 0px;
+  }
+}
+/*-------------------------------------------------------------------------*/
+/*End Header*/
+
+/*start tinyone-features*/
+@media(max-width:992px){
+  .features-icon .features-text{
+    margin-top: 40px;
+  }
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:360px){
+  .features-info p{
+    padding: 15px 21px;
+  }
+}
+/*end tinyone-features*/
+
+/*keep in tauch with us start*/
+/*-------------------------------------------------------------------------*/
+@media(max-width:768px){
+  .keep-info button{
+    margin-top: 20px;
+  }
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:360px){
+  .keep-info{
+    margin: 0 0px;
+  }
+}
+/*keep in tauch with us end*/
+
+/*footer start*/
+@media(max-width:360px){
+  footer ul{
+    margin-top: 20px;
+  }
+}
+/*footer end*/
